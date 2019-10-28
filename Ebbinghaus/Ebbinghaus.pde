@@ -1,42 +1,43 @@
-float RL = 80;
-float R0 = 90;
-float X0 = 300;
-float Y0 = 300;
-int N = 6;
-int flag = 0;
+float RL_L = 80; //左の周囲の円の直径
+float R0_L = 90; //左の周囲の円の円配置の半径
+float X0_L = 300;//左の図形の横中央の位置
+float Y0_L = 300;//左の図形の縦中央の位置
+int N_L = 6;     //左の周囲の円の数
+float RS_L = 40; //左の中央の円の直径
+
+float RL_R = 10; //右の周囲の円の直径
+float R0_R = 30; //右の周囲の円の円配置の半径
+float X0_R = 600;//右の図形の横中央の位置
+float Y0_R = 300;//右の図形の縦中央の位置
+int N_R = 8;     //右の周囲の円の数
+float RS_R = 40; //右の中央の円の直径
 
 
-float x = X0;
-float y = Y0 - R0;
+//左の円の描画
+float x = X0_L;
+float y = Y0_L - R0_L;
 
 size(1200, 800);
 fill(255);
 
 background(255);
-for(int i = 0; i < N; i++){
-  x = X0 + R0 * cos(2 * PI / N * i);
-  y = Y0 + R0 * sin(2 * PI / N * i);
-  circle(x, y , RL);
+for(int i = 0; i < N_L; i++){
+  x = X0_L + R0_L * cos(2 * PI / N_L * i);
+  y = Y0_L + R0_L * sin(2 * PI / N_L * i);
+  circle(x, y , RL_L);
 }
 
-float RS = 40;
-circle(X0, Y0, RS);
+circle(X0_L, Y0_L, RS_L);
 
-RL = 10;
-R0 = 30;
-X0 = 800;
-Y0 = 300;
-N = 8;
-flag = 0;
 
-x = X0;
-y = Y0 - R0;
+//右の円の描画
+x = X0_R;
+y = Y0_R - R0_R;
 
-for(int i = 0; i < N; i++){
-  x = X0 + R0 * cos(2 * PI / N * i);
-  y = Y0 + R0 * sin(2 * PI / N * i);
-  circle(x, y , RL);
+for(int i = 0; i < N_R; i++){
+  x = X0_R + R0_R * cos(2 * PI / N_R * i);
+  y = Y0_R + R0_R * sin(2 * PI / N_R * i);
+  circle(x, y , RL_R);
 }
 
-RS = 40;
-circle(X0, Y0, RS);
+circle(X0_R, Y0_R, RS_R);
