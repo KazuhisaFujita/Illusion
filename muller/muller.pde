@@ -12,7 +12,7 @@ float degree_upper = 45.0;  //矢羽の角度 (degree)
 float rad_upper    = radians(degree_upper); //矢羽の角度 (rad)
 
 int V              = 250;   //上下の間隔
-int L2             = 580;   //線の長さ
+int L2             = 600;   //線の長さ
 float r_lower      = 100.0; //矢羽の大きさ
 float degree_lower = 45.0;  // 矢羽の角度 (degree)
 float rad_lower    = radians(degree_lower); // 矢羽の角度 (rad)
