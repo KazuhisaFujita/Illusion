@@ -8,10 +8,12 @@ Update: 2021/10/31
 These are Processing scripts for typical optical illusions.
 
 - [Ebbinghaus illusion](https://github.com/KazuhisaFujita/Optical_Illusion/tree/master/Ebbinghaus)
+- [Hering illusion](https://github.com/KazuhisaFujita/Optical_Illusion/tree/master/Hering)
 - [Poggendorff illusion](https://github.com/KazuhisaFujita/Optical_Illusion/tree/master/Poggendorff)
 - [Ponzo illusion](https://github.com/KazuhisaFujita/Optical_Illusion/tree/master/Ponzo)
 - [Cafe illusion](https://github.com/KazuhisaFujita/Optical_Illusion/tree/master/cafewall)
 - [moving circle](https://github.com/KazuhisaFujita/Optical_Illusion/tree/master/circle)
+- [Footstep illusion](https://github.com/KazuhisaFujita/Optical_Illusion/tree/master/footstep)
 - [Hermann illusion](https://github.com/KazuhisaFujita/Optical_Illusion/tree/master/hermann)
 - [Muller illusion](https://github.com/KazuhisaFujita/Optical_Illusion/tree/master/muller)
 - [rotation circle](https://github.com/KazuhisaFujita/Optical_Illusion/tree/master/rotation)
